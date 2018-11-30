@@ -1,0 +1,33 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-image: url("/static/img/numbers.jpg");
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  color: #000;
+}
+
+.container {
+  text-align: center;
+}
+
+.counter-container {
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  margin: 100px auto auto;
+}
+
+.button {
+  background-color: darkslategrey;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12pt;
+}
